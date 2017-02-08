@@ -1,27 +1,18 @@
 {
   "name": "flip-a-gif",
-  "version": "1.0.0",
-  "description": "A GIPHY matching game!",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/christinedt/flip-a-gif.git"
-  },
-  "keywords": [
-    "GIPHY",
-    "gif"
-  ],
-  "author": "stinedec",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/christinedt/flip-a-gif/issues"
-  },
-  "homepage": "https://github.com/christinedt/flip-a-gif#readme",
   "dependencies": {
-    "express": "^4.14.1",
-    "pug": "^2.0.0-beta11"
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "node-sass": "^4.5.0",
+    "pug": "~2.0.0-beta10",
+    "serve-favicon": "~2.3.2"
   }
 }

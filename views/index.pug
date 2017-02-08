@@ -1,0 +1,35 @@
+extends layout
+block content
+	- var gif0 = gifs[0].gif_url;
+	- var gif1 = gifs[1].gif_url;
+	- var gif2 = gifs[2].gif_url;
+
+	h1= title
+	div(class="gif-container")
+		div(class="gif-wrapper")
+			img(src=gif0 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif1 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif0 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif1 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif2 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif1 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif2 class="gif-front")
+			div(class="gif-back")
+		div(class="gif-wrapper")
+			img(src=gif1 class="gif-front")
+			div(class="gif-back")
+	form( action="" method="post")
+		input(type="text")
+		button(name="foo" value="upvote") Upvote
