@@ -2,7 +2,7 @@
 A GIPHY matching game!
 
 install dependencies:
-	$ cd flip-a-gif && npm install
+	$ npm install
 
 run the app:
 	$ DEBUG=flip-a-gif:* npm start
